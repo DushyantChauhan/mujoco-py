@@ -489,7 +489,7 @@ def find_key():
     ''' Try to find the key file, if missing, print out a big message '''
     if exists(key_path):
         return
-    print(MISSING_KEY_MESSAGE.format(key_path), file=sys.stderr)
+    #print(MISSING_KEY_MESSAGE.format(key_path), file=sys.stderr)
 
 
 def activate():
